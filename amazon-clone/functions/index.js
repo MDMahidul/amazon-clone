@@ -33,6 +33,5 @@ app.post("/payments/create", async (request, response) => {
 // - Listen command
 exports.api = functions.https.onRequest(app);
 
-
 //example endpoint
 //http://localhost:5001/clone-c1fde/us-central1/api
